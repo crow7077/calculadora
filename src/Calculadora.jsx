@@ -1,6 +1,6 @@
 import { useState } from "react";
-import OperacoesBasicas from "./components/OperacoesBasicas";
 import RegraDeTres from "./components/RegraDeTres";
+import OperacoesBasicas from "./components/OperacoesBasicas";
 import "./Calculadora.css";
 
 export default function Calculadora() {
@@ -8,16 +8,18 @@ export default function Calculadora() {
 
   return (
     <div className={temaEscuro ? "container dark" : "container light"}>
-      <h1>Calculadora 
-       <br /> do meu Amor</h1>
+      <h1>
+        Calculadora
+        <br /> do meu Amor
+      </h1>
       <button
         onClick={() => setTemaEscuro(!temaEscuro)}
         className="toggle-theme"
       >
         Alternar para tema {temaEscuro ? "claro" : "escuro"}
       </button>
-      <OperacoesBasicas />
       <RegraDeTres />
+      <OperacoesBasicas />
     </div>
   );
 }

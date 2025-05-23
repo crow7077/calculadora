@@ -37,20 +37,8 @@ export default function OperacoesBasicas() {
   return (
     <div className="card">
       <h2>Operações Básicas</h2>
-      <input
-        type="number"
-        className="semseta"
-        value={valor1}
-        onChange={(e) => setValor1(e.target.value)}
-        placeholder="Valor 1"
-      />
-      <input
-        type="number"
-        className="semseta"
-        value={valor2}
-        onChange={(e) => setValor2(e.target.value)}
-        placeholder="Valor 2"
-      />
+      <input type="number" className="input" value={valor1} onChange={(e) => setValor1(e.target.value)} placeholder="Valor 1" />
+      <input type="number" className="input" value={valor2} onChange={(e) => setValor2(e.target.value)} placeholder="Valor 2" />
       <div className="buttons">
         <button onClick={() => handleOperacao("+")}>+</button>
         <button onClick={() => handleOperacao("-")}>−</button>

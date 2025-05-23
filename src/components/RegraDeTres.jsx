@@ -27,27 +27,9 @@ export default function RegraDeTres() {
   return (
     <div className="card">
       <h2>Regra de 3</h2>
-      <input
-        type="number"
-        className="semseta"
-        value={a}
-        onChange={(e) => setA(e.target.value)}
-        placeholder="A"
-      />
-      <input
-        type="number"
-        className="semseta"
-        value={b}
-        onChange={(e) => setB(e.target.value)}
-        placeholder="B"
-      />
-      <input
-        type="number"
-        className="semseta"
-        value={c}
-        onChange={(e) => setC(e.target.value)}
-        placeholder="C"
-      />
+      <input type="number" className="input" value={a} onChange={(e) => setA(e.target.value)} placeholder="A" />
+      <input type="number" className="input" value={b} onChange={(e) => setB(e.target.value)} placeholder="B" />
+      <input type="number" className="input" value={c} onChange={(e) => setC(e.target.value)} placeholder="C" />
       <button onClick={calcular}>Calcular</button>
       {resultado !== null && (
         <p className="resultado">Resultado: {resultado}</p>
