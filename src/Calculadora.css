@@ -4,20 +4,20 @@ body {
   }
   
   .container {
-    min-height: 850px;
-    padding: 20px;
+    min-height: 800px;
+    padding: 10px;
     transition: background 0.3s, color 0.3s;
   }
   
   .container.light {
-    margin: 10px;
+    margin: 5px;
     border-radius: 15px;
     background: #ffc7f6;
     color: #333333;
   }
   
   .container.dark {
-    margin: 10px;
+    margin: 5px;
     border-radius: 15px;
     background: #250020;
     color: #fff;
@@ -53,15 +53,15 @@ body {
     align-items: center;
     background: rgb(255, 171, 237);
     color: #181818;
-    padding: 20px;
-    margin: 10px auto;
+    padding: 10px;
+    margin: 5px auto;
     border-radius: 10px;
-    width: 400px;
+    width: 350px;
     box-shadow: 0 0 10px rgba(172, 92, 92, 0.1);
   }
 
   .input {
-    width: 380px;
+    width: 330px;
     height: 35px;
     font-size: 20px;
     font-weight: 700;
