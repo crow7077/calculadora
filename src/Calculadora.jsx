@@ -10,6 +10,7 @@ export default function Calculadora() {
     <div className={temaEscuro ? "container dark" : "container light"}>
       <h1>
         Calculadora
+        <br />do meu Amor
       </h1>
       <button
         onClick={() => setTemaEscuro(!temaEscuro)}
