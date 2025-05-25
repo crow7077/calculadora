@@ -1,7 +1,7 @@
 import { useState } from "react";
 import RegraDeTres from "./components/RegraDeTres";
 import OperacoesBasicas from "./components/OperacoesBasicas";
-import "./Calculadora.css";
+import "./calculadora.css";
 
 export default function Calculadora() {
   const [temaEscuro, setTemaEscuro] = useState(false);
